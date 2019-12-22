@@ -19,5 +19,6 @@ attr_reader :roster
     @roster[num]
   end
 
-  def sort 
+  def sort
+    @roster each do |student, grade|
 end
