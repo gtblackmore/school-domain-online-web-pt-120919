@@ -14,5 +14,7 @@ attr_reader :roster
       @roster[grade] = [name]
     end
   end
+  
+  def grade
 
 end
