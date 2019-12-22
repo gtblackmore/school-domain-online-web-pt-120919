@@ -8,8 +8,11 @@ attr_reader :roster
   end
   
   def add_student(student, grade)
-    @roster[grade] =[]
-    @roster[grade] << student
+    if @roster[grade] !=nil
+      @roster[grade] << name
+    else
+      @roster[grade] = [name]
+    end
   end
 
 end
