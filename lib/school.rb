@@ -19,4 +19,5 @@ attr_reader :roster
     @roster[num]
   end
 
+  def sort 
 end
