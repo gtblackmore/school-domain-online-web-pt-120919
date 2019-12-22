@@ -16,6 +16,6 @@ attr_reader :roster
   end
   
   def grade(num)
-    
+    @roster[num]
 
 end
