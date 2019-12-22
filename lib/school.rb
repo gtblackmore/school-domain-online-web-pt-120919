@@ -8,8 +8,8 @@ attr_reader :roster
   end
   
   def add_student(name, grade)
-    roster[:name, grade] = []
-    roster[name, grade] << add_student
+    roster[:name => grade] = []
+    roster[:name => grade] << add_student
   end
 
 end
